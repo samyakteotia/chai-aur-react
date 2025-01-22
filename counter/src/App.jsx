@@ -7,7 +7,10 @@ function App() {
   const [counter,setCounter]=useState(15)
   //let counter=5;
   const addValue=()=>{
-    setCounter(counter+1);
+    setCounter((counter)=>counter+1);
+    setCounter((counter)=>counter+1);
+    setCounter((counter)=>counter+1);
+    setCounter((counter)=>counter+1);
   }
   const decValue = () => {
     if(counter==0){
